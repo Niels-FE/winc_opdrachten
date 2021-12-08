@@ -1,0 +1,13 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+input:checked + label {
+    background-color: darkgreen;
+    color: white;
+}
+svg[data-css="hover-rotate"]:hover {
+    transform: rotate(90deg);
+  }
+  button#search:hover svg {
+      fill: rgba(209,250,229);
+  }
