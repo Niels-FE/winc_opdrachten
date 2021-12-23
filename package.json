@@ -1,0 +1,19 @@
+{
+  "name": "winc_opdrachten",
+  "version": "1.0.0",
+  "description": "voor alle opdrachten",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niels-FE/winc_opdrachten.git"
+  },
+  "author": "Niels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niels-FE/winc_opdrachten/issues"
+  },
+  "homepage": "https://github.com/Niels-FE/winc_opdrachten#readme"
+}

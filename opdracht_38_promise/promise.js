@@ -45,7 +45,7 @@ const sortWords = (capsWords) => {
 const arrayOfWords = ['cucumber', 'tomatos', 'avocado', "10"]
 makeAllCaps(arrayOfWords)
     .then(result => { sortWords(result) })
-    .then(result => { console.log(result) })
+    .then(newResult => { console.log(newResult) })
     .catch(error => { console.log(error) });
 const complicatedArray = ['cucumber', 44, true];
 
