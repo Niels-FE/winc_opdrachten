@@ -1,0 +1,18 @@
+body {
+    margin: 2em;
+}
+
+.buttonholder {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.buttonholder button {
+    padding:  .5rem 1rem;
+    font-size: 14px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    font-weight:bold;
+    cursor: pointer;
+}
