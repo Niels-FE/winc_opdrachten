@@ -1,0 +1,22 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+input[type="text"] {
+    border-color: rgba(0,0,0,.2);
+}
+input:focus, input:active, input:focus-visible {
+    border-left: 0px;
+    border-top: 0px;
+    border-right:0px;
+    outline: 0;
+}
+li:nth-child(odd){
+    background-color: gainsboro;
+}
+li:nth-child(even){
+    background-color: whitesmoke;
+}
+input:checked+label {
+    text-decoration:line-through;
+}

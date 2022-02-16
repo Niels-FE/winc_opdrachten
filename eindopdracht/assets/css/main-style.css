@@ -1,13 +1,25 @@
 * {
     font-family: 'Lato', sans-serif;
+    font-size: 12px;
 }
-input:checked + label {
-    background-color: darkgreen;
-    color: white;
+input[type="text"] {
+    border-color: rgba(0,0,0,.2);
 }
-svg[data-css="hover-rotate"]:hover {
-    transform: rotate(90deg);
-  }
-  button#search:hover svg {
-      fill: rgba(209,250,229);
-  }
+label {
+    transition: transform .2s ease-in-out;
+}
+input:placeholder-shown+label {
+    cursor: text;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform: translate(1em, 2.45em) scale(1);
+}
+input:not(:placeholder-shown)+label, input:focus+label {
+    transform: translate(6px, 9px);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+    cursor: pointer;
+}
